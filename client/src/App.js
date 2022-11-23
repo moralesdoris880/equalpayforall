@@ -1,19 +1,16 @@
 import { useState, useEffect } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    fetch("/hello")
-      .then((r) => r.json())
-      .then((data) => setCount(data.count));
-  }, []);
-
-  return (
+ return(
+  <BrowserRouter>
     <div className="App">
-      <h1>Page Count: {count}</h1>
+      <Routes>
+        <Route path="/about" element={<About />}/>
+        <Route path="/" element={<Home />}/>
+      </Routes>
     </div>
-  );
+  </BrowserRouter>
+ );
 }
 
 export default App;
