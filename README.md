@@ -1,4 +1,4 @@
-# EqualPayForAll.com
+# EqualPayForAll.com 💸
 
 A web application that focuses on revealing the gender pay gap within Companies and Jobs in order to provide transparency and data for closing the gender pay gap.
 
