@@ -1,25 +1,33 @@
-# README
+# EqualPayForAll.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A web application that focuses on revealing the gender pay gap within Companies and Jobs in order to provide transparency and data for closing the gender pay gap.
 
-Things you may want to cover:
+## About this Project 
 
-* Ruby version
+This web application was made with JS, HTML5, CSS, React, Redux, Ruby, and Ruby on Rails. Other features include User Authentication, Active Record, and Password Protection with BCrypt.
 
-* System dependencies
+## Team
 
-* Configuration
+Designs made by: Anthony Regner
+Backend made by: Hnin and Doris Morales
+Frontend made by: Doris Morales
 
-* Database creation
+## Acknowledgements
 
-* Database initialization
+* https://www.npmjs.com/package/bcrypt
+* https://www.npmjs.com/package/react-redux 
+* https://emojipedia.org/
+* https://www.w3schools.com/ 
 
-* How to run the test suite
+## FAQ's
 
-* Services (job queues, cache servers, search engines, etc.)
+How are you determining gender pay? 
 
-* Deployment instructions
+A: We use our amazing Database to compare salaries on individual Companies and Job Titles ( since each Job has its different average salaries )
 
-* ...
-# equalpayforall
+Why did you create EqualPayForAll?
+
+A: For our website submission for WiCS X GWC Hackathon ( Theme: Gender Diversity and Equity in tech)
+
+
+
