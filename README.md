@@ -9,7 +9,7 @@ This web application was made with JS, HTML5, CSS, React, Redux, Ruby, and Ruby 
 ## Team
 
 * Designs made by: Anthony Regner
-* Backend made by: Hnin and Doris Morales
+* Backend made by: Hnin Lwin and Doris Morales
 * Frontend made by: Doris Morales and Anthony Regner 
 
 ## Acknowledgements
