@@ -7,6 +7,7 @@ function App() {
  return(
   <BrowserRouter>
     <div className="App">
+      <NavBar />
       <Routes>
         <Route path="/about" element={<About />}/>
         <Route path="/" element={<Home />}/>
