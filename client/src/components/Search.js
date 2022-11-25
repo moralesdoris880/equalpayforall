@@ -10,8 +10,8 @@ function Search() {
     return (
       <div>
         <form onSubmit={handleQuery}>
-            <input placeholder="Search... " onChange={(e) => setQuery(e.target.value)}></input>
-            <input type="submit" value="Search"></input>
+            <input class="searchBar" placeholder="Search... " onChange={(e) => setQuery(e.target.value)}></input>
+            <input class="searchButton" type="submit" value="Search"></input>
         </form>
       </div>
     );
