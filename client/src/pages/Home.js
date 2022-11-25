@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Job from "../components/Job";
+import { Link } from "react-router-dom";
 
 function Home({user}) {
   const[jobs,setJobs]=useState([])

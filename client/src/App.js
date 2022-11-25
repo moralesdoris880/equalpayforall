@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Signup from "./pages/Signup";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
+        <Route path="/signup" element={<Signup setUser={setUser}/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/" element={<Home user={user} />}/>
       </Routes>
