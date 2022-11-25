@@ -28,7 +28,23 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-.searchbar {
+input.searchBar, input.searchButton {
+  font-size: 16px;
+  font-family: Roboto;
+  border-width: 1px;
+  border-color: #60f;
+  padding: 2px 4px;
+}
+
+input.searchButton {
+  font-weight: 500;
+  background-color: #c0f;
+  color:#fff;
+}
+
+input.searchBar {
+  width: 300px;
+  background-color: #eef;
 }
 
 .section {
