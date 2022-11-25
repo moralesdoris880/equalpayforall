@@ -7,6 +7,7 @@ function NavBar() {
           <p>💸</p>
             <span class = "button"><NavLink to="/">Home</NavLink></span>
             <span class = "button"><NavLink to="/about">About</NavLink></span>
+            <br/>
           <Search/>
       </div>
     );
