@@ -22,6 +22,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_23_050707) do
     t.integer "employment_start"
     t.integer "employment_end"
     t.text "job_review"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

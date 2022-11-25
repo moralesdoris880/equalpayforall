@@ -23,7 +23,7 @@ class JobinfosController < ApplicationController
     def create
         current_user = User.find_by(id:session[:user_id])
         if current_user
-            job = current_user.jobinfo.create!(jobinfo_params)
+            job = current_user.jobinfos.create!(jobinfo_params)
             render json: job
         else
             render json: {errors: ["Cannot Create"]}, status: :unauthorized
@@ -32,7 +32,7 @@ class JobinfosController < ApplicationController
 
     def update
         user =  User.find_by(id: session[:user_id])
-        job = user.jobinfo.find_by(id: params[:id])
+        job = user.jobinfos.find_by(id: params[:id])
         if job
             rating.update(job_params)
             render json: job, status: :accepted
@@ -43,7 +43,7 @@ class JobinfosController < ApplicationController
 
     def destroy
         user =  User.find_by(id: session[:user_id])
-        job = user.jobinfo.find_by(id: params[:id])
+        job = user.jobinfos.find_by(id: params[:id])
         if job
             job.destroy
             render json: {}

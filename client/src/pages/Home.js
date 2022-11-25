@@ -34,7 +34,7 @@ function Home({user}) {
         <p>Welcome Back {user.username}</p>
         <div>
           <p>My Jobs</p>
-          <button>Enter New Job</button>
+          <Link to="/newjob"><button>Enter New Job</button></Link>
           <div>
             {userjobs.map((userjob) => <Job userjob={userjob} user={user}/>)}
           </div>

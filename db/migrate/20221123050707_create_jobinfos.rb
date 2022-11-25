@@ -8,6 +8,7 @@ class CreateJobinfos < ActiveRecord::Migration[7.0]
       t.integer :employment_start
       t.integer :employment_end
       t.text :job_review
+      t.integer :user_id
       t.timestamps
     end
   end
