@@ -24,8 +24,8 @@ function Home({user}) {
 
   if(!user)return(
     <div>
-      <button>Login</button>
-      <button>Register</button>
+      <Link to="/login"><button>Login</button></Link>
+      <Link to="/signup"><button>Register</button></Link>
     </div>);
   else 
     return (
