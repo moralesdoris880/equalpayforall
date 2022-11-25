@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
+import Job from "../components/Job";
 
 function Home({user}) {
   const[jobs,setJobs]=useState([])
   const[userjobs,setUserjobs]=useState([])
     
   useEffect(() => {
-      fetch("/drinks").then((r) => {
+      fetch("/userjobs").then((r) => {
         if (r.ok) {
-          r.json().then((drinks) => setTopDrinks(drinks));
+          r.json().then((userjobs) => setUserjobs(userjobs));
         }
       });
     }, []);
@@ -23,7 +24,8 @@ function Home({user}) {
 
   if(!user)return(
     <div>
-      
+      <button>Login</button>
+      <button>Register</button>
     </div>);
   else 
     return (
