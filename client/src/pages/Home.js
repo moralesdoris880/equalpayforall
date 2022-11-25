@@ -41,7 +41,9 @@ function Home({user}) {
         </div>
         <div>
           <p>See New Job Reviews</p>
-          {/* LIST TOP 10 newest job reviews */}
+          <div>
+            {jobs.map((userjob) => <Job userjob={userjob} user={user}/>)}
+          </div>
         </div>
       </div>
     );

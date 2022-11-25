@@ -1,6 +1,10 @@
 function Job(){
     return(
-        <div></div>
+        <div>
+            <p>{Job.title}</p>
+            <p>{Job.type}</p>
+            <p>{Job.company}</p>
+        </div>
     )
 }
 
