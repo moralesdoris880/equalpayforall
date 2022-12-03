@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: equalpayforall_production
-  username: equalpayforall
-  password: <%= ENV["EQUALPAYFORALL_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>

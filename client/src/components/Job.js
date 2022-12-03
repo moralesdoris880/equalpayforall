@@ -1,9 +1,10 @@
-function Job(){
+function Job({userjob, user}){
     return(
         <div>
-            <p>{Job.title}</p>
-            <p>{Job.type}</p>
-            <p>{Job.company}</p>
+            <p>{userjob.job_title}</p>
+            <p>{userjob.job_type}</p>
+            <p>{userjob.company_name}</p>
+            <p>{userjob.job_review}</p>
         </div>
     )
 }
