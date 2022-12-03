@@ -2,6 +2,9 @@
 
 A web application that focuses on revealing the gender pay gap within Companies and Jobs in order to provide transparency and data for closing the gender pay gap.
 
+Website Link: 
+https://equalpayforall.onrender.com 
+
 ## About this Project 
 
 This web application was made with JS, HTML5, CSS, React, Redux, Ruby, and Ruby on Rails. Other features include User Authentication, Active Record, and Password Protection with BCrypt.
